@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <!-- Bootstrap CSS CDN -->
+    <link href="bootstrap-5.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link href="css/home.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/logo.png" alt="" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Others
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="#skill">Skills</a></li>
+                            <li><a class="dropdown-item" href="#projects">Capstone Projects</a></li>
+                            <li><a class="dropdown-item" href="#testimonials">Achievments</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Bootstrap JS Bundle CDN -->
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/home.js"></script>
+
+    <section class="hero full-vh">
+        <img src="assets/profile.jpg" alt="Glenn Dela Cruz" class="hero-img">
+        <h1>Glenn Zymond A. Capinlac</h1>
+        <h4>Web Developer & Designer</h4>
+        <p class="lead">Turning ideas into interactive experiences</p>
+        <div class="mt-4">
+            <a href="#projects" class="btn btn-light btn-lg me-2">View My Work</a>
+            <a href="#contact" class="btn btn-outline-light btn-lg me-2">Hire Me</a>
+            <a href="assets/Resume - Glenn Zymond Capinlac.pdf" class="btn btn-primary btn-lg" download>Download CV</a>
+        </div>
+    </section>
+
+    <!-- About Me Snapshot -->
+    <section class="container text-center my-5 full-vh" id="about">
+        <h2>About Me</h2>
+        <p class="mt-3" style="text-align: justify;">
+             I recently graduated with a degree
+                Bachelor of Science in
+                Information Technology from
+                Cagayan State University 
+                Sanchez Mira, Cagayan. 
+                I have a passion in technology,
+                my hobbies is to play music instruments.
+                I’m eager to bring fresh ideas and strong problem-solving skills to creative projects.
+                I possess hands-on experience
+                in web and mobile
+                development, database
+                administration, networking, and
+                IT technical support.
+                I aspire to grow
+                in a fast-moving tech
+                environment that encourages
+                creativity and advancement,
+                where I can utilize my skills,
+                expand my career, and
+                contribute to impactful tech
+                solutions.
+        </p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6 mb-3 d-flex">
+                <div class="card project-card flex-fill">
+                    <img src="assets/grad4.jpg" class="card-img-top" alt="Parent's Night Image">
+                    <div class="card-body  d-flex flex-column">
+                        <h5 class="card-title">Araw ng Parangal at Pasasalamat</h5>
+                        <p class="card-text">With my grandfather, Henry Aguillo and my loved one, Camile Tadlas.</p>
+                        <div class="mt-auto"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 d-flex">
+                <div class="card project-card flex-fill">
+                    <img src="assets/grad5.jpg" class="card-img-top" alt="Parent's Night Image">
+                    <div class="card-body  d-flex flex-column">
+                        <h5 class="card-title">Araw ng Parangal at Pasasalamat</h5>
+                        <p class="card-text">Awarding of our Achievements and Hardworking.</p>
+                        <div class="mt-auto"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 d-flex">
+                <div class="card project-card flex-fill">
+                    <img src="assets/grad3.jpg" class="card-img-top" alt="Parent's Night Image">
+                    <div class="card-body  d-flex flex-column">
+                        <h5 class="card-title">My Capstone Project Adviser</h5>
+                        <p class="card-text">Dr. Manny S. Alipio, our College Dean and also the Best Capstone Project Adviser</p>
+                        <div class="mt-auto"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 d-flex">
+                <div class="card project-card flex-fill">
+                    <img src="assets/grad1.jpg" class="card-img-top" alt="Parent's Night Image">
+                    <div class="card-body  d-flex flex-column">
+                        <h5 class="card-title">My lovable grandfather</h5>
+                        <p class="card-text">Henry Aguillo, my beloved grandfather who has always been there for me.</p>
+                        <div class="mt-auto"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3 d-flex">
+                <div class="card project-card flex-fill">
+                    <img src="assets/grad2.jpg" class="card-img-top" alt="Parent's Night Image">
+                    <div class="card-body  d-flex flex-column">
+                        <h5 class="card-title">My Prof</h5>
+                        <p class="card-text">Dr. Segundo Pacris, who always believed in me.</p>
+                        <div class="mt-auto"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Skills Highlights -->
+    <section class="container text-center my-5 skills full-vh" id="skill">
+        <h2>Skills</h2>
+        <div class="row mt-4">
+            <!-- Professional Skills -->
+            <div class="col-md-6 mb-4 mb-md-0 text-start professional-skills">
+                <h4 class="mb-3"><i class="fas fa-user-tie me-2"></i> Professional Skills</h4>
+                <ul class="list-unstyled">
+                    <li>
+                        <i class="fas fa-users"></i>
+                        <div>
+                            <span class="fw-bold">Teamwork</span><br>
+                            <span>Works effectively with teams to achieve goals.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        <div>
+                            <span class="fw-bold">Communication Skills</span><br>
+                            <span>Clear and effective in both verbal and written communication.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-hard-hat"></i>
+                        <div>
+                            <span class="fw-bold">Hardworking</span><br>
+                            <span>Dedicated and committed to meeting deadlines.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!-- Technical Skills -->
+            <div class="col-md-6 text-start">
+                <h4 class="mb-3"><i class="fas fa-laptop-code"></i> Technical Skills</h4>
+                <div class="d-flex flex-wrap gap-4">
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill skill-html" style="width:90%;">
+                            HTML/CSS
+                            <span class="float-end">90%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill skill-js" style="width:85%;">
+                            JavaScript/PHP/MySQL
+                            <span class="float-end">85%</span>
+                        </div>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-bar-fill skill-system" style="width:80%;">
+                            System Development
+                            <span class="float-end">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects -->
+    <section class="container my-5 full-vh" id="projects">
+        <h2 class="text-center mb-4">Capstone Projects</h2>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <img src="assets/ids.png" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Glaira Jek INTRUSION DETECTION SYSTEM</h5>
+                        <p class="card-text">An IDS uses cameras and sensors to detect intruders, records activity, and notifies authorized personnel via Telegram. It helps prevent unauthorized access but may trigger false alarms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <img src="assets/research.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Capstone Research Project</h5>
+                        <p class="card-text">Developed an Intrusion Detection System for CSU Sanchez Mira that uses cameras and sensors to monitor access, send instant alerts, and improve campus safety by efficiently detecting and notifying about unauthorized entry.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+                <div class="card project-card">
+                    <img src="assets/ids_team.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Researchers and developers of the INTRUSION DETECTION SYSTEM</h5>
+                        <p class="card-text">I, Glenn Zymond A. Capinlac, Aira Mae B. Cortez, and Jeric Jay E. Biscaro are the researchers and developers of the Intrusion Detection System, designed to enhance security and monitor unauthorized access.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials / Achievements -->
+    <section class="container my-5 full-vh" id="testimonials">
+        <h2 class="text-center mb-4">Achievements</h2>
+        <div class="row justify-content-center">
+            <!-- Achievements Section -->
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-sports.jpg" target="_blank">
+                        <img src="assets/award-sports.jpg" class="card-img-top" alt="College Sports Award">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-trophy fa-2x text-warning mb-2"></i>
+                        <h5 class="card-title">College Sports Award</h5>
+                        <p class="card-text">Recognized for outstanding performance and sportsmanship in College of Information and Computing Sciences.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-socio.jpg" target="_blank">
+                        <img src="assets/award-socio.jpg" class="card-img-top" alt="College Socio-Cultural Award">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-users fa-2x text-info mb-2"></i>
+                        <h5 class="card-title">College Socio-Cultural Award</h5>
+                        <p class="card-text">Awarded for active participation and excellence in socio-cultural activities and events in College of Information and Computing Sciences</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-ojt.jpg" target="_blank">
+                        <img src="assets/award-ojt.jpg" class="card-img-top" alt="Outstanding On-The-Job Trainee">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-briefcase fa-2x text-secondary mb-2"></i>
+                        <h5 class="card-title">Outstanding On-The-Job Trainee</h5>
+                        <p class="card-text">Honored for exceptional performance and dedication during on-the-job training @ Public Attorney's Office - Sanchez Mira District, OIC ATTY. Joel Emilio F. Bragado.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-static.jpg" target="_blank">
+                        <img src="assets/award-static.jpg" class="card-img-top" alt="Static Web Developer of the Year">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-code fa-2x text-success mb-2"></i>
+                        <h5 class="card-title">Static Web Developer of the Year</h5>
+                        <p class="card-text">Recognized for excellence in static web development and design.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-dynamic.jpg" target="_blank">
+                        <img src="assets/award-dynamic.jpg" class="card-img-top" alt="Dynamic Web Developer of the Year">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-laptop-code fa-2x text-primary mb-2"></i>
+                        <h5 class="card-title">Dynamic Web Developer of the Year</h5>
+                        <p class="card-text">Awarded for outstanding skills in dynamic web development.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-champion.jpg" target="_blank">
+                        <img src="assets/award-champion.jpg" class="card-img-top" alt="Champion in Dynamic Web Design">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-trophy fa-2x text-warning mb-2"></i>
+                        <h5 class="card-title">Champion in Dynamic Web Design</h5>
+                        <p class="card-text">ICT UNIWIDE S.Y. 2023-2024 @ Cagayan State University - Carig Campus<br>Achieved first place for dynamic web design excellence.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-2ndplace.jpg" target="_blank">
+                        <img src="assets/award-2ndplace.jpg" class="card-img-top" alt="2nd Place in Dynamic Web Design">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-medal fa-2x text-info mb-2"></i>
+                        <h5 class="card-title">2nd Place in Dynamic Web Design</h5>
+                        <p class="card-text">ICT UNIWIDE S.Y. 2024-2025 @ Cagayan State University - Aparri Campus<br>Secured second place in dynamic web design competition.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-research.jpg" target="_blank">
+                        <img src="assets/award-research.jpg" class="card-img-top" alt="Campus-wide Student Researcher Award">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-flask fa-2x text-success mb-2"></i>
+                        <h5 class="card-title">Campus-wide Student Researcher Award</h5>
+                        <p class="card-text">Best Undergraduate Thesis (Technical Research) @ Sanchez Mira Campus<br>Recognized for top technical research project.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="card h-100 shadow-sm border-0">
+                    <a href="assets/award-outstanding.jpg" target="_blank">
+                        <img src="assets/award-outstanding.jpg" class="card-img-top" alt="Campus Outstanding Student Researcher">
+                    </a>
+                    <div class="card-body text-center">
+                        <i class="fas fa-star fa-2x text-warning mb-2"></i>
+                        <h5 class="card-title">Campus Outstanding Student Researcher</h5>
+                        <p class="card-text">Awarded for exemplary research contributions and academic excellence. <br>Participate the event of Search for the Best Undergraduate Researcher and Mentor @ CSU - Andrews Campus (Univerity Level)</p>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="testimonial p-3 bg-light rounded">
+                    "Glenn is a creative problem solver and a reliable team player. Highly recommended!"<br>
+                    <span class="fw-bold">– Professor Jane Smith</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="testimonial p-3 bg-light rounded">
+                    "Delivered our project ahead of schedule with outstanding quality."<br>
+                    <span class="fw-bold">– Client, ABC Corp</span>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 mb-3">
+                <div class="testimonial p-3 bg-light rounded">
+                    <i class="fas fa-award text-warning"></i> Certified Web Developer, 2024
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section full-vh" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="mt-4 text-center d-flex justify-content-center flex-wrap gap-4">
+                    <a href="mailto:glenncapinlaczymond@gmail.com?subject=Inquiry%20from%20Portfolio&body=Hello%20Glenn," 
+                        class="contact-icon" style="width: 120px;"
+                        title="Send me an email to glenncapinlaczymond@gmail.com">
+                        <i class="fas fa-envelope fa-2x"></i>
+                        <span class="d-block mt-1">Email</span>
+                    </a>
+                    <a href="https://web.facebook.com/glenn.zymond.a.capinlac" class="contact-icon" style="width: 120px;" target="_blank" title="Facebook name: Glenn Zymond A. Capinlac">
+                        <i class="fab fa-facebook fa-2x"></i>
+                        <span class="d-block mt-1">Facebook</span>
+                    </a>
+                    <a href="https://www.instagram.com/zygln13/" class="contact-icon" style="width: 120px;" target="_blank" title="Instagram username: zygln13">
+                        <i class="fab fa-instagram fa-2x"></i>
+                        <span class="d-block mt-1">Instagram</span>
+                    </a>
+                    <a href="tel:09959554050" class="contact-icon" style="width: 120px;" title="Call 09959554050">
+                        <i class="fas fa-phone-alt fa-2x"></i>
+                        <span class="d-block mt-1">09959554050</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center py-4 bg-dark text-light">
+        <p>&copy; 2025 Glenn Zymond A. Capinlac - Web Designer & Developer</p>
+        <p>Designed with <i class="fas fa-heart text-danger"></i> using Bootstrap and cascading stylesheets</p>
+        <p class="mt-3 mb-2">
+            <span class="fw-bold text-primary">Personal Branding & Portfolio Showcase</span><br>
+            <span class="text-secondary">Connect for collaborations or inquiries.</span><br>
+            <span class="badge bg-success mt-2">Available for Freelance Projects</span><br>
+            <span class="d-block mt-2">
+            <i class="fas fa-code"></i> Static Web Development &nbsp; 
+            <i class="fas fa-paint-brush"></i> Web Design &nbsp; 
+            <i class="fas fa-cogs"></i> System Development
+            </span>
+        </p>
+        <p>
+            <span><i class="fas fa-map-marker-alt"></i> Cagayan Valley, Philippines</span>
+        </p>
+    </footer>
+
+
+
+
+
+
+
+
+    <button id="backToTop" title="Go to top" style="
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        display: none;
+        z-index: 99;
+        border: none;
+        outline: none;
+        background-color: #0d6efd;
+        color: white;
+        cursor: pointer;
+        padding: 12px 16px;
+        border-radius: 50%;
+        width: 60px;
+        font-size: 22px;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    " href="#">
+        &#8679;
+    </button>
+
+    <script>
+        // Show button when scrolling down
+        const backToTop = document.getElementById("backToTop");
+        window.onscroll = function() {
+            if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+                backToTop.style.display = "block";
+            } else {
+                backToTop.style.display = "none";
+            }
+        };
+        // Scroll to top when clicked
+        backToTop.onclick = function() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+</body>
